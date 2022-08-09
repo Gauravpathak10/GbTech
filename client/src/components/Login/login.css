@@ -1,0 +1,41 @@
+.form {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.form form {
+    width: 400px;
+}
+
+.form span {
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.form input {
+    width: 200px;
+    padding: 7px;
+    margin: 5px;
+}
+
+.form button {
+    display: block;
+    margin: auto;
+    padding: 12px;
+    cursor: pointer;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.form button:hover {
+    background-color: rgb(139, 175, 187);
+    color: black;
+    transition: 1s all;
+
+}
